@@ -6,7 +6,7 @@ terraform {
   backend "s3" {
     bucket = "olufolakeadebiyi"
     key    = "test/app-stack.tfstate"
-    region = var.AWS_REGION
+    region = "us-east-2"
   }
 }
 
